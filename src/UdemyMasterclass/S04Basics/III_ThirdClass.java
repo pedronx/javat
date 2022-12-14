@@ -1,7 +1,11 @@
 package UdemyMasterclass.S04Basics;
 
-public class ThirdClass {
+public class III_ThirdClass {
 
+    /**
+     * Section 01 - IntelliJ Basics
+     * 34. If-Then Statement
+     */
     public static void main(String[] args) {
         System.out.println("Hello, Tim.");
 
