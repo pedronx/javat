@@ -15,9 +15,19 @@ public class V_FifthClass {
             System.out.println("Your score is " + topScore + ".");
         }
 
-        int secondTopScore = 60;
+        // Prints an extra blank paragraph v1
+        System.out.print("\n");
+
+        int secondTopScore = 81;
         if ((topScore > secondTopScore) && (topScore < 100)){
-            System.out.println("\n Greater than second top score and less than 100.");
+            System.out.println("Greater than second top score and less than 100.");
+        }
+
+        // Prints an extra blank paragraph v2
+        System.out.println();
+
+        if ((topScore > 90 || (secondTopScore <=90))){
+            System.out.println("Either or both of the conditions are true");
         }
     }
 }
