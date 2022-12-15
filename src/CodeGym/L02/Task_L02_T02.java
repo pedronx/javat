@@ -1,6 +1,6 @@
 package CodeGym.L02;
 
-public class TaskL02T02 {
+public class Task_L02_T02 {
 
     /**
      * Feature-length film

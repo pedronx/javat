@@ -6,7 +6,7 @@ package CodeGym.L02;
  * The values can be any integers.
  */
 
-public class Task01 {
+public class Task_L02_T01 {
 
     public static void main (String[] args) {
         int intValue = 0, numericValue = 1, size = 2, number = 3;
