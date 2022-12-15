@@ -1,5 +1,7 @@
 package CodeGym.L02;
 
+// Level 02 | Lessons 2 to 5
+
 public class Task_L02_T02 {
 
     /**
@@ -67,10 +69,23 @@ public class Task_L02_T02 {
         System.out.println(toothCounter);
     }
 
+    /**
+     * It's me again about the job...
+     * In the main method, declare word, phrase, line, and text variables whose type is String.
+     * Assign them different values. Use a single statement to create and initialize the variables.
+     * The values can be any strings.
+     */
+    static void itsMeAgain() {
+        String word = "Word", phrase = "A new phrase", line = "A line of text", text = "Some text!";
+
+        System.out.println(word + "\n" + phrase + "\n" + line + "\n" + text);
+    }
+
     public static void main (String[] args) {
         featureLenght();
         lastDigit();
         invertedSix();
         thirtyTwoTheeth();
+        itsMeAgain();
     }
 }
