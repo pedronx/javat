@@ -10,8 +10,15 @@ https://company-academy.udemy.com/
 https://codegym.cc/
 
 ---
+## ***<p style="color:#F70D1A">Notes</p>***
 
-###### Notes
+<br>
+
+**Introduction to JShell**
+*	https://docs.oracle.com/en/java/javase/17/jshell/introduction-jshell.html
+
+<br> 
+
 **Terminal colours**
 
 | Colour               | Hexa    | RGB           |
@@ -20,3 +27,34 @@ https://codegym.cc/
 | *Darker Grey*        | #2D3636 | rgb(45,54,54) |
 | *Darkest Grey*       | #1F2425 | rgb(31,36,37) |
 | *Notepad++ Obsidian* | ------- | rgb(41,49,52) |
+
+<br> 
+
+**Java Keywords**
+*	https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.9
+
+<br>
+
+**Unicode Character Table**
+*   https://unicode-table.com/en/
+
+<br>
+
+**HTML Colour codes**
+*   https://htmlcolorcodes.com/
+*   https://www.computerhope.com/htmcolor.htm
+
+<br>
+
+## **<p style="color:#A74AC7">Useful Articles & Links</p>**
+
+***Markdown***
+* [Markdown Test file (JavaT)](../JavaT/src/ReadMeDocumentation/TestMarkdown.md)
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+
+
+***Best Practices***
+  * [Coding Rules: From Creating a System to Working With Objects](https://codegym.cc/groups/posts/350-coding-rules-from-creating-a-system-to-working-with-objects)
+    * [Kent Beck's Four Rules of Software Design](https://martinfowler.com/bliki/BeckDesignRules.html)
+  * [Coding Rules: the Power of Correct Names, Good and Bad Comments](https://codegym.cc/groups/posts/369)
+  * 
