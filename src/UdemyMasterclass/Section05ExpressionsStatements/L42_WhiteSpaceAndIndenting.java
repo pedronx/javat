@@ -1,6 +1,6 @@
 package UdemyMasterclass.Section05ExpressionsStatements;
 
-public class II_WhiteSpaceAndIndenting {
+public class L42_WhiteSpaceAndIndenting {
 
     public static void main (String[] args) {
         int myVariable = 50;

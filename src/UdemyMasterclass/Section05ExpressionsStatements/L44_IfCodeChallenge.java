@@ -1,6 +1,6 @@
 package UdemyMasterclass.Section05ExpressionsStatements;
 
-public class IV_IfCodeChallenge {
+public class L44_IfCodeChallenge {
 
     public static void main (String[] args) {
 
