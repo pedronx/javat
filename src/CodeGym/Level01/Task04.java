@@ -1,4 +1,4 @@
-package CodeGym.L01;
+package CodeGym.Level01;
 
 public class Task04 {
 

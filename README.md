@@ -1,12 +1,12 @@
-## Java Training 2022-2023
+# Java Training 2022-2023
 
 ---
-### Udemy - Java Programming Masterclass by Tim Buchalka
+## Udemy - Java Programming Masterclass by Tim Buchalka
 https://company-academy.udemy.com/
 
 ---
 
-### CodeGym - Java course
+## CodeGym - Java course
 https://codegym.cc/
 
 ---
@@ -30,10 +30,20 @@ https://codegym.cc/
 
 <br> 
 
-**Java Keywords**
-*	https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.9
+**Java DOCS**
+* ***Keywords***	
+  * https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.9
+* ***Summary of Operators***
+  * https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
+* ***Java Operator Precedence Table***
+  * https://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
+* ***Whitespace (Google StyleGuide)***
+  * https://google.github.io/styleguide/javaguide.html#s4.6-whitespace 
 
-<br>
+
+
+  
+  <br>
 
 **Unicode Character Table**
 *   https://unicode-table.com/en/

@@ -1,4 +1,4 @@
-package CodeGym.L01;
+package CodeGym.Level01;
 
 /**
 Write a program that displays: "Amigo is very smart!".

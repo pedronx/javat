@@ -1,4 +1,4 @@
-package CodeGym.L01;
+package CodeGym.Level01;
 
 /**
  * Declare int variables called a and b.

@@ -1,4 +1,4 @@
-package CodeGym.L02;
+package CodeGym.Level02;
 
 // Level 02 | Lessons 2 to 5
 

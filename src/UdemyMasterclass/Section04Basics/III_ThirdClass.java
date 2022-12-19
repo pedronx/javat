@@ -1,4 +1,4 @@
-package UdemyMasterclass.S04Basics;
+package UdemyMasterclass.Section04Basics;
 
 public class III_ThirdClass {
 

@@ -1,4 +1,4 @@
-package CodeGym.L02;
+package CodeGym.Level02;
 
 /**
  * In the main method, declare intValue, numericValue, size, and number variables whose type is int.
