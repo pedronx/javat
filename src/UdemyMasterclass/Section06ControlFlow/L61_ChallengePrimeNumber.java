@@ -12,6 +12,16 @@ public class L61_ChallengePrimeNumber {
 
         System.out.println("8 is " + (isPrime(8) ? "" : "NOT ") + "a prime number.");
         System.out.println("17 is " + (isPrime(17) ? "" : "NOT ") + "a prime number.");
+
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>");
+        primeNumberCounter(34);
+        primeNumberCounter(56);
+        primeNumberCounter(301);
+        primeNumberCounter(675);
+        primeNumberCounter(745);
+        primeNumberCounter(687);
+        primeNumberCounter(43);
+
     }
 
     /**
@@ -50,4 +60,18 @@ public class L61_ChallengePrimeNumber {
      *    . If the number is prime, print out and increment the prime number counter variable.
      *    . Once the prime number counter equals three, exit the loop (Hint: use the break statement to exit)
      */
+    public static void primeNumberCounter(int wholeNumber) {
+
+        int primeNumberCounter = 0;
+
+        for (int i = wholeNumber; i <= 1000; i++) {
+            if (primeNumberCounter < 3 && isPrime(i)) {
+                System.out.println("The number " + i + " is prime.");
+                primeNumberCounter++;
+            } else if (primeNumberCounter == 3) {
+                System.out.println("Total number of prime numbers between " + wholeNumber + " and " + (i - 1) + " is " + primeNumberCounter);
+                break;
+            }
+        }
+    }
 }

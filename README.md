@@ -56,7 +56,7 @@ https://codegym.cc/
 
 <br>
 
-**Debug code**
+**Debug code (IntelliJ)**
 *   https://www.jetbrains.com/help/idea/debugging-code.html
 
 <br>

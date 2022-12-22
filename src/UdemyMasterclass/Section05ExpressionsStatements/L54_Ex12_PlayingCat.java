@@ -15,7 +15,7 @@ package UdemyMasterclass.Section05ExpressionsStatements;
  *    . isCatPlaying(false, 36); should return false since temperature is not in range 25 - 35 (summer parameter is false)
  *    . isCatPlaying(false, 35); should return true since temperature is in range 25 - 35
  */
-public class L54_Ex04_PlayingCat {
+public class L54_Ex12_PlayingCat {
 
     public static void main(String[] args) {
         System.out.println("isCatPlaying(true, 10) : " + isCatPlaying(true, 10));

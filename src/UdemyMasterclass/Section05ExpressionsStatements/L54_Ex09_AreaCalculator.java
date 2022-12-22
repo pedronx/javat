@@ -24,7 +24,7 @@ import static java.lang.Math.PI;
  * NOTE: The method isLeapYear needs to be defined as public static like we have been doing so far in the course.
  * NOTE: Do not add a main method to solution code.
  */
-public class L54_Ex01_AreaCalculator {
+public class L54_Ex09_AreaCalculator {
 
     public static void main (String[] args) {
 

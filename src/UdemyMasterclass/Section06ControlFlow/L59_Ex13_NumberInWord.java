@@ -11,7 +11,7 @@ package UdemyMasterclass.Section06ControlFlow;
  * NOTE: Method printNumberInWord needs to be public static for now, we are only using static methods.
  * NOTE: Do not add main method to solution code.
  */
-public class L59_Ex01_NumberInWord {
+public class L59_Ex13_NumberInWord {
 
     public static void main (String[] args) {
 

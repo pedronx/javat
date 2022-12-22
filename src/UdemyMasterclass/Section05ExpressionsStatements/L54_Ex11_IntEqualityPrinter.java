@@ -15,7 +15,7 @@ package UdemyMasterclass.Section05ExpressionsStatements;
  *    . printEqual(-1, -1, -1); should print text "Invalid Value"
  *    . printEqual(1, 2, 3); should print text "All numbers are different"
  */
-public class L54_Ex03_IntEqualityPrinter {
+public class L54_Ex11_IntEqualityPrinter {
 
     public static void main(String[] args) {
         printEqual(1, 1, 1);
