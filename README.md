@@ -56,6 +56,11 @@ https://codegym.cc/
 
 <br>
 
+**Debug code (IntelliJ)**
+*   https://www.jetbrains.com/help/idea/debugging-code.html
+
+<br>
+
 ## **<p style="color:#A74AC7">Useful Articles & Links</p>**
 
 ***Markdown***

@@ -35,7 +35,7 @@ package UdemyMasterclass.Section06ControlFlow;
  * NOTE: Methods isLeapYear and getDaysInMonth need to be public static like we have been doing so far in the course.
  * NOTE: Do not add a main method to solution code.
  */
-public class L59_Ex2_NumberOfDaysInMonth {
+public class L59_Ex14_NumberOfDaysInMonth {
 
     public static void main (String[] args) {
 

@@ -24,7 +24,7 @@ package UdemyMasterclass.Section05ExpressionsStatements;
  *     . printYearsAndDays(1051200); should print "1051200 min = 2 y and 0 d"
  *     . printYearsAndDays(561600); should print "561600 min = 1 y and 25 d"
  */
-public class L54_Ex02_MinutesToYearsDaysCalculator {
+public class L54_Ex10_MinutesToYearsDaysCalculator {
 
     public static void main (String[] args) {
         printYearsAndDays(525600);
