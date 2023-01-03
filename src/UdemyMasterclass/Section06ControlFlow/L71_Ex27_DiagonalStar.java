@@ -46,7 +46,7 @@ package UdemyMasterclass.Section06ControlFlow;
  * NOTE: The method printSquareStar should be defined as public static like we have been doing so far in the course.
  * NOTE: Do not add a main method to the solution code.
  */
-public class L70_Ex27_DiagonalStar {
+public class L71_Ex27_DiagonalStar {
 
     public static void main (String[] args) {
 
