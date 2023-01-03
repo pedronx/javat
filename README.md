@@ -39,10 +39,12 @@ https://codegym.cc/
   * https://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
 * ***Whitespace (Google StyleGuide)***
   * https://google.github.io/styleguide/javaguide.html#s4.6-whitespace 
+  * * ***Exception Handling***
+  * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html
 
 
 
-  
+
   <br>
 
 **Unicode Character Table**
@@ -60,6 +62,7 @@ https://codegym.cc/
 *   https://www.jetbrains.com/help/idea/debugging-code.html
 
 <br>
+
 
 ## **<p style="color:#A74AC7">Useful Articles & Links</p>**
 

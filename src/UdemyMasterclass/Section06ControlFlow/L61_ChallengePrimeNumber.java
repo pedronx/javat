@@ -53,7 +53,7 @@ public class L61_ChallengePrimeNumber {
 
     /**
      * For Loop Challenge
-     * Crate a prime number counter variable, that will keep count of how many prime number were found.
+     * Create a prime number counter variable, that will keep count of how many prime number were found.
      * Create a for statement, using any range of numbers, where the maximum number is <= 1000.
      * For each number in the range:
      *    . Check to see if it's a prime number, using the isPrime method.
