@@ -49,8 +49,27 @@ package UdemyMasterclass.Section06ControlFlow;
 public class L71_Ex27_DiagonalStar {
 
     public static void main (String[] args) {
-
+        printSquareStar(2);
+        printSquareStar(5);
+        printSquareStar(8);
+        printSquareStar(12);
     }
 
+    public static void printSquareStar(int number) {
 
+        if (number < 5) {
+            System.out.println("Invalid Value");
+        } else {
+            for (int i = 0; i < number; i++) {
+                for (int j = 0; j < number; j++) {
+                    if (i == 0 || j == 0 || i == j || i == (number - 1) || j == (number - 1) || j == number - (i + 1)) {
+                        System.out.print("*");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+            }
+        }
+    }
 }
