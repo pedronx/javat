@@ -1,4 +1,4 @@
-package UdemyMasterclass.Section07OOP_Pt1.L80_Contructors;
+package UdemyMasterclass.Section07OOP_Pt1.L80_81_Contructors;
 
 /**
  * Create a new Class for a bank account.
@@ -29,7 +29,7 @@ public class BankAccount {
 
     // Contructors
     public BankAccount() {
-        // Empty constructor
+        this("0000000PT", 0.0, "John Doe", "john.doe@noemail.com", "000000000");
     }
 
     public BankAccount(String accountNumber, double accountBalance, String customerName,
@@ -39,6 +39,13 @@ public class BankAccount {
         this.customerName = customerName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+    }
+
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this("0000000PT", 0.0,customerName, email, phoneNumber);
+//        this.customerName = customerName;
+//        this.email = email;
+//        this.phoneNumber = phoneNumber;
     }
 
     // Setter methods
