@@ -1,0 +1,31 @@
+package UdemyMasterclass.Section07OOP_Pt1.L94_ThisVsSuper;
+
+class Shape {
+
+    private int x;
+    private int y;
+
+    public Shape(int x, int y) {
+        this.x = x;
+        this.y = y;
+
+    }
+}
+
+class AnotherRectangle extends Shape {
+
+    private int width;
+    private int height;
+
+    // 1st constructor
+    public AnotherRectangle(int x, int y) {
+        this(x, y, 0, 0); // calls 2nd constructor
+    }
+
+    // 2nd constructor
+    public AnotherRectangle(int x, int y, int width, int height) {
+        super(x, y); // calls constructor from parent (Shape)
+        this.width = width;
+        this.height = height;
+    }
+}

@@ -39,8 +39,10 @@ https://codegym.cc/
   * https://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
 * ***Whitespace (Google StyleGuide)***
   * https://google.github.io/styleguide/javaguide.html#s4.6-whitespace 
-  * * ***Exception Handling***
+* ***Exception Handling***
   * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html
+* ***Class Object***
+  * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html
 
 
 
@@ -69,7 +71,16 @@ https://codegym.cc/
 ***Markdown***
 * [Markdown Test file (JavaT)](../JavaT/src/ReadMeDocumentation/TestMarkdown.md)
 * [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+* [Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
+* *Example*: 
+<pre> | Tables   |      Are      |  Cool |
+ |----------|:-------------:|------:|
+ | col 1 is |  left-aligned | $1600 |
+ | col 2 is |    centered   |   $12 |
+ | col 3 is | right-aligned |    $1 |
+</pre>
 
+<br>
 
 ***Best Practices***
   * [Coding Rules: From Creating a System to Working With Objects](https://codegym.cc/groups/posts/350-coding-rules-from-creating-a-system-to-working-with-objects)
