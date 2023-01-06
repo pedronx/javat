@@ -1,4 +1,4 @@
-package UdemyMasterclass.Section08OOP_Pt2.L100_Composition_Pt1;
+package UdemyMasterclass.Section08OOP_Pt2.L102_Composition_Pt2;
 
 public class PersonalComputer extends Product {
 
