@@ -2,7 +2,7 @@
 
 ---
 ## Udemy - Java Programming Masterclass by Tim Buchalka
-https://company-academy.udemy.com/
+https://company-academy.udemy.com/course/java-the-complete-java-developer-course/
 
 ---
 
@@ -43,6 +43,8 @@ https://codegym.cc/
   * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html
 * ***Class Object***
   * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html
+* ***Class Formatter***
+* * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Formatter.html
 
 
 
@@ -72,13 +74,13 @@ https://codegym.cc/
 * [Markdown Test file (JavaT)](../JavaT/src/ReadMeDocumentation/TestMarkdown.md)
 * [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 * [Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
-* *Example*: 
-<pre> | Tables   |      Are      |  Cool |
- |----------|:-------------:|------:|
- | col 1 is |  left-aligned | $1600 |
- | col 2 is |    centered   |   $12 |
- | col 3 is | right-aligned |    $1 |
-</pre>
+  * *Example*: 
+    <pre> | Tables   |      Are      |  Cool |
+     |----------|:-------------:|------:|
+     | col 1 is |  left-aligned | $1600 |
+     | col 2 is |    centered   |   $12 |
+     | col 3 is | right-aligned |    $1 |
+    </pre>
 
 <br>
 
