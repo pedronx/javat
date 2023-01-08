@@ -1,4 +1,4 @@
-package UdemyMasterclass.Section08OOP_Pt2.L111_PolymorphismChallenge;
+package UdemyMasterclass.Section08OOP_Pt2.L111_112_PolymorphismChallenge;
 
 /**
  * Polymorphism Challenge
@@ -21,6 +21,16 @@ public class Main {
         Car tesla = new ElectricCar("2020 Tesla Model X");
         System.out.println(tesla.getDescription());
         runRace(tesla);
+
+        System.out.println(">>>>>>");
+        Car teslaTwo = new ElectricCar("2022 Red Tesla Model 3", 568, 75);
+        System.out.println(teslaTwo.getDescription());
+        runRace(teslaTwo);
+
+        System.out.println(">>>>>>");
+        Car toyota = new HybridCar("2022 Black Toyota Cupra", 900, 560, 9);
+        System.out.println(toyota.getDescription());
+        runRace(toyota);
     }
 
     public static void runRace(Car car) {

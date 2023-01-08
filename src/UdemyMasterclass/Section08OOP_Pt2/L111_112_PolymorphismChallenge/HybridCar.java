@@ -1,4 +1,4 @@
-package UdemyMasterclass.Section08OOP_Pt2.L111_PolymorphismChallenge;
+package UdemyMasterclass.Section08OOP_Pt2.L111_112_PolymorphismChallenge;
 
 public class HybridCar extends Car{
 
@@ -15,5 +15,16 @@ public class HybridCar extends Car{
         this.avgKmPerLitre = avgKmPerLitre;
         this.batterySize = batterySize;
         this.cylinders = cylinders;
+    }
+
+    @Override
+    public void startEngine() {
+        System.out.printf("Hybrid -> %d cylinders are fired up.%n", cylinders);
+        System.out.printf("Hybrid -> Switch %d battery on, Ready!%n", batterySize);
+    }
+
+    @Override
+    protected void runEngine() {
+        System.out.printf("Hybrid -> usage above average: %.2f %n", avgKmPerLitre);
     }
 }
