@@ -2,7 +2,18 @@ package CodeGym.Level02;
 
 // Level 2 | Lesson 6
 
-public class Task_L02_T03 {
+public class L02_T03 {
+
+    public static void main (String[] args) {
+        theLogo();
+        emptinessAndSpaces();
+        concatenationOfStrings();
+        biggerEveryTime();
+        lenghtOfString();
+        sprucingUpResume();
+        raiseYourVoice();
+    }
+
 
     /**
      * The logo is everything
@@ -104,15 +115,5 @@ public class Task_L02_T03 {
         System.out.println(usa.toUpperCase());
         System.out.println("Winnie the Pooh".toUpperCase());
         System.out.println((caps + "they know I mean business").toUpperCase());
-    }
-
-    public static void main (String[] args) {
-        theLogo();
-        emptinessAndSpaces();
-        concatenationOfStrings();
-        biggerEveryTime();
-        lenghtOfString();
-        sprucingUpResume();
-        raiseYourVoice();
     }
 }
