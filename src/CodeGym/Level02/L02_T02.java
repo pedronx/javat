@@ -2,7 +2,7 @@ package CodeGym.Level02;
 
 // Level 02 | Lessons 2 to 5
 
-public class Task_L02_T02 {
+public class L02_T02 {
 
     /**
      * Feature-length film
