@@ -94,4 +94,10 @@ https://codegym.cc/
   * [Coding Rules: From Creating a System to Working With Objects](https://codegym.cc/groups/posts/350-coding-rules-from-creating-a-system-to-working-with-objects)
     * [Kent Beck's Four Rules of Software Design](https://martinfowler.com/bliki/BeckDesignRules.html)
   * [Coding Rules: the Power of Correct Names, Good and Bad Comments](https://codegym.cc/groups/posts/369)
-  * 
+
+<br>
+
+***Book Recommendations***
+* [Thinking in Java (4th Edition) by Bruce.Eckel]()
+* [Grokking Algorithms by Aditya Bhargava](https://www.oreilly.com/library/view/grokking-algorithms/9781617292231/)
+* [Code: The Hidden Language by Charles Petzold](https://www.codehiddenlanguage.com/) 
