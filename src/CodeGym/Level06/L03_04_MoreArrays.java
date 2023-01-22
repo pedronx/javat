@@ -142,8 +142,21 @@ public class L03_04_MoreArrays {
             strings[i] = console.nextLine();
         }
 
+        int duplicates = 0;
         for (int i = 0; i < strings.length; i++) {
+            for (int j = 0; j < strings.length; j++) {
+                if (i != j && strings[i] != null && strings[j] != null) {
+                    if (strings[i].equalsIgnoreCase(strings[j])) {
+                        strings[j] = null;
+                        duplicates += 1;
+                    }
+                }
+            }
 
+            if (duplicates > 0) {
+                strings[i] = null;
+            }
+            duplicates = 0;
         }
 
         for (int i = 0; i < strings.length; i++) {
