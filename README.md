@@ -98,6 +98,23 @@ https://codegym.cc/
 <br>
 
 ***Book Recommendations***
+* [Effective Java by Joshua Bloch's]()
+* [Clean Code by Robert C. Martin]()
 * [Thinking in Java (4th Edition) by Bruce.Eckel]()
 * [Grokking Algorithms by Aditya Bhargava](https://www.oreilly.com/library/view/grokking-algorithms/9781617292231/)
 * [Code: The Hidden Language by Charles Petzold](https://www.codehiddenlanguage.com/) 
+
+<br>
+
+***Blogs***
+* [CodeGym Blog](https://codegym.cc/groups/posts)
+* [Coding Dojo Blog](https://www.codingdojo.com/blog/)
+
+<br>
+
+***Articles***
+* [10 Ways to Improve your code \[codegym.cc\]](https://codegym.cc/groups/posts/387-10-ways-to-improve-your-code-proven-through-personal-experience)
+  ><p>"Always write simple, understandable, and logical code. <br>
+  > Simple and logical code always works well, leads to fewer problems, and is more extensible."</p> 
+  
+* 
