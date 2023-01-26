@@ -1,8 +1,6 @@
-package CodeGym.Level09;
+package CodeGym.Level09.L01_MathClass;
 
 import java.util.Scanner;
-
-import static java.lang.Math.toRadians;
 
 /**
  * Method 	              | Description
@@ -42,7 +40,7 @@ import static java.lang.Math.toRadians;
  * max(a, b)    | returns the maximum of two numbers
  * Ex. Math.min(Math.min(a, b), Math.min(c, d)) //minimum of several numbers
  */
-public class L01_MathClass {
+public class Main {
 
     /*--- Lesson 01 | Task 00 ---*/
     public static int N = 10;
