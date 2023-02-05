@@ -11,6 +11,11 @@ public class CustomExceptions {
     }
 }
 
-class MyException extends RuntimeException
-{
+class MyException extends RuntimeException {
+
+    MyException() {
+        System.out.println("The string cannot be empty!");
+    }
 }
+
+
