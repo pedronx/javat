@@ -37,6 +37,8 @@ import java.util.*;
  */
 public class Main {
 
+    private static int currentPlaceIndex = 0; // index of the current place visited
+
     public static void main (String[] args) {
 
         String menuOption;
@@ -50,21 +52,25 @@ public class Main {
                 new Town("Melbourne", 877),
                 new Town("Perth", 3923)));
 
+        // order the list
+        orderListbydistance(itinerary);
+
         do {
             // displays Main menu and validates if valid input
             menuOption = getMenuFromScanner();
 
             switch (menuOption) {
                 case "f":
-                    forwardList();
+                    forwardList(itinerary);
                     waitEnterToBePressed();
                     break;
                 case "b":
-                    backwardList();
+                    backwardList(itinerary);
                     waitEnterToBePressed();
                     break;
                 case "a":
                     addPlace(itinerary, getPlaceFromScanner());
+                    orderListbydistance(itinerary);
                     break;
                 case "l":
                     listPlaces(itinerary);
@@ -72,8 +78,7 @@ public class Main {
                     break;
                 case "m":
                     // lists menu again
-                    orderListbydistance(itinerary);
-                    break;
+                   break;
                 case "q":
                     System.out.println("Thank you for using the application.\nCome again!...");
                     exitApp = true;
@@ -129,15 +134,30 @@ public class Main {
         return menuOption.toLowerCase();
     }
 
-    public static void forwardList() {
-
+    public static void forwardList(LinkedList<Town> list) {
+        if (currentPlaceIndex == list.size() - 1) {
+            System.out.printf("You're currently at the farthest point in our journey %s. %n", list.get(currentPlaceIndex));
+            System.out.println("The way backwards is ;) Please choose your destination!");
+        } else {
+            currentPlaceIndex++;
+            System.out.printf("Welcome! We have now arrived in %s. %n", list.get(currentPlaceIndex));
+        }
     }
 
-    public static void backwardList() {
-
+    public static void backwardList(LinkedList<Town> list) {
+        if (currentPlaceIndex == 0) {
+            System.out.printf("You're currently in %s. %n", list.get(currentPlaceIndex));
+            System.out.println("Forward is the way ;) Please choose your destination!");
+        } else {
+            currentPlaceIndex--;
+            System.out.printf("Welcome! We have now arrived in %s. %n", list.get(currentPlaceIndex));
+        }
     }
 
     public static void listPlaces(LinkedList<Town> list) {
+        System.out.printf("You're currently in %s %n%n", list.get(currentPlaceIndex));
+        System.out.println("Places to visit:");
+
         var iterator = list.listIterator(); // using a List Iterator (additional funcionalities)
         while (iterator.hasNext()) {
             System.out.println(" " + iterator.next().toString());
@@ -154,19 +174,20 @@ public class Main {
                     return;
                 }
             }
-
-
             list.add(place);
         }
     }
 
     public static void orderListbydistance(LinkedList<Town> list) {
 
-        List<Town> array = new ArrayList<Town>(list);
+        Town tempTown;
 
-        for (int i = 1; i < array.size(); i++) {
-            if (array.get(i).getDistanceFromStart() < array.get(i - 1).getDistanceFromStart()) {
-
+        for (int i = 1; i < list.size(); i++) {
+            if (list.get(i).getDistanceFromStart() < list.get(i - 1).getDistanceFromStart()) {
+                tempTown = list.get(i);
+                list.remove(i);
+                list.add(i - 1, tempTown);
+                i -= 2;
             }
         }
     }
