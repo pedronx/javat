@@ -1,5 +1,9 @@
 package CodeGym.Level16.L02_StreamOfDataInput;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 /**
  * Streams are a versatile tool.
  * They allow the program to receive data from anywhere (input streams) and send data anywhere (output streams).
@@ -23,4 +27,23 @@ package CodeGym.Level16.L02_StreamOfDataInput;
  *  void close()            Closes the stream
  */
 public class DataStreams {
+
+    public static void main(String[] args) {
+        String src = "src/CodeGym/Level16/L02_StreamOfDataInput/log.txt";
+        String dest = "src/CodeGym/Level16/L02_StreamOfDataInput/stream_copy.txt";
+
+
+        try(FileInputStream input = new FileInputStream(src);
+            FileOutputStream output = new FileOutputStream(dest))
+        {
+            byte[] buffer = new byte[65536]; // 64Kb
+            while (input.available() > 0)
+            {
+                int real = input.read(buffer);
+                output.write(buffer, 0, real);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
