@@ -1,0 +1,4 @@
+test file for level 16, lesson 03
+Chained streams
+Not all shall pass
+Use the readAllLines(Path) method of the Files class
