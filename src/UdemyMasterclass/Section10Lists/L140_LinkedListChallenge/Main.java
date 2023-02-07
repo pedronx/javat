@@ -71,6 +71,7 @@ public class Main {
                 case "a":
                     addPlace(itinerary, getPlaceFromScanner());
                     orderListbydistance(itinerary);
+                    waitEnterToBePressed();
                     break;
                 case "l":
                     listPlaces(itinerary);
@@ -167,10 +168,9 @@ public class Main {
     public static void addPlace(LinkedList<Town> list, Town place) {
 
         if (!place.getTownName().isBlank()) {
-
             for (var myPlace: list) {
-                if (myPlace.getTownName().toLowerCase().equalsIgnoreCase(place.getTownName())) {
-                    System.out.println("Found a duplicate: " + place.getTownName());
+                if (myPlace.getTownName().equalsIgnoreCase(place.getTownName())) {
+                    System.out.println("\nFound a duplicate: " + place.getTownName());
                     return;
                 }
             }
