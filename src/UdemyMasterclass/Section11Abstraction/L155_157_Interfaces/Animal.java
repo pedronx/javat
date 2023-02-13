@@ -14,6 +14,23 @@ interface FlightEnabled {
     void fly(); // abstract modifier is implicit, for all interfaces
 }
 
+record DragonFly (String name, String type) implements FlightEnabled {
+    @Override
+    public void takeOff() {
+
+    }
+
+    @Override
+    public void land() {
+
+    }
+
+    @Override
+    public void fly() {
+
+    }
+}
+
 interface Trackable {
 
     void track();
