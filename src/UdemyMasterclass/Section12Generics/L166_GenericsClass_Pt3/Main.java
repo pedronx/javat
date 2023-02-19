@@ -1,8 +1,8 @@
-package UdemyMasterclass.Section12Generics.L04_GenericsClass_Pt3;
+package UdemyMasterclass.Section12Generics.L166_GenericsClass_Pt3;
 
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.BaseballPlayer;
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.FootballPlayer;
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.SoccerPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.BaseballPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.FootballPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.SoccerPlayer;
 
 public class Main {
 
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Number of players: " + adelaideCrows.numPlayers());
 
         System.out.println();
-        UdemyMasterclass.Section12Generics.L03_GenericsClass_Pt2.Team<SoccerPlayer> soccerTeam = new UdemyMasterclass.Section12Generics.L03_GenericsClass_Pt2.Team<>("Chelsea");
+        UdemyMasterclass.Section12Generics.L165_GenericsClass_Pt2.Team<SoccerPlayer> soccerTeam = new UdemyMasterclass.Section12Generics.L165_GenericsClass_Pt2.Team<>("Chelsea");
         soccerTeam.addPlayer(beckham);
         System.out.println("Number of players: " + soccerTeam.numPlayers());
 

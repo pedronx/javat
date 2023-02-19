@@ -1,13 +1,14 @@
-package UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1;
+package UdemyMasterclass.Section12Generics.L165_GenericsClass_Pt2;
 
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.Player;
 import java.util.ArrayList;
 
-public class Team {
+public class Team<T> { // for restricting type of classes used: public class team<T extends Player> {}
 
     private String name;
     int played = 0, won = 0, lost = 0, tied = 0;
 
-    private ArrayList<Player> members = new ArrayList<>();
+    private ArrayList<T> members = new ArrayList<>();
 
     public Team(String name) {
         this.name = name;
@@ -17,13 +18,13 @@ public class Team {
         return name;
     }
 
-    public boolean addPlayer(Player player) {
+    public boolean addPlayer(T player) {
         if (members.contains(player)) {
-            System.out.println(player.getName() + " is already on this team");
+            System.out.println(((Player) player).getName() + " is already on this team");
             return false;
         } else {
             members.add(player);
-            System.out.println(player.getName() + " picked for team" + this.name);
+            System.out.println(((Player) player).getName() + " picked for team" + this.name);
             return true;
         }
     }

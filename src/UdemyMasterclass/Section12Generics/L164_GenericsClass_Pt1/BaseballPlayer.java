@@ -1,4 +1,4 @@
-package UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1;
+package UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1;
 
 public class BaseballPlayer extends Player{
 

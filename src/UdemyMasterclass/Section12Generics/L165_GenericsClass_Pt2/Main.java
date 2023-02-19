@@ -1,9 +1,8 @@
-package UdemyMasterclass.Section12Generics.L03_GenericsClass_Pt2;
+package UdemyMasterclass.Section12Generics.L165_GenericsClass_Pt2;
 
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.Player;
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.BaseballPlayer;
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.FootballPlayer;
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.SoccerPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.BaseballPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.FootballPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.SoccerPlayer;
 
 public class Main {
 

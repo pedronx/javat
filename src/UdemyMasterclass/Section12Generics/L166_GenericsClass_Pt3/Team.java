@@ -1,6 +1,6 @@
-package UdemyMasterclass.Section12Generics.L04_GenericsClass_Pt3;
+package UdemyMasterclass.Section12Generics.L166_GenericsClass_Pt3;
 
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.Player;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.Player;
 
 import java.util.ArrayList;
 import java.util.Comparator;

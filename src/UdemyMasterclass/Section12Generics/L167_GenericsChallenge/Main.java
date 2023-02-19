@@ -1,6 +1,6 @@
-package UdemyMasterclass.Section12Generics.L05_GenericsChallenge;
+package UdemyMasterclass.Section12Generics.L167_GenericsChallenge;
 
-import UdemyMasterclass.Section12Generics.L02_GenericsClass_Pt1.FootballPlayer;
+import UdemyMasterclass.Section12Generics.L164_GenericsClass_Pt1.FootballPlayer;
 
 /**
  * Generics Challenge
